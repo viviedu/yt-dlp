@@ -4,6 +4,22 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2024.08.07.062704
+
+#### Core changes
+- [Actually use the result](https://github.com/yt-dlp/yt-dlp/commit/5b1ca3b508652644959fe18f3cb61bc550c28f84) by [pukkandan](https://github.com/pukkandan)
+- [Don't check for poToken warning if token passed](https://github.com/yt-dlp/yt-dlp/commit/bbbe552df00c02713c6b5e9951c58581ac216c10) by [pukkandan](https://github.com/pukkandan)
+- [Don't retry if po_token is passed](https://github.com/yt-dlp/yt-dlp/commit/7d5e16487f34f5e58302d3d8ba8d23ea0c6b7f56) by [pukkandan](https://github.com/pukkandan)
+- [Fix func location](https://github.com/yt-dlp/yt-dlp/commit/6a3514ce23dfef4874eb9d1597fc90c27cc8620e) by [pukkandan](https://github.com/pukkandan)
+- [Set pot in url](https://github.com/yt-dlp/yt-dlp/commit/95538872740f7cc2c094c422195f8c8eadb41c80) by [pukkandan](https://github.com/pukkandan)
+- [Simplify](https://github.com/yt-dlp/yt-dlp/commit/d9cc6e8c0e2a098ed2f6b370b71ca057974c41ff) by [pukkandan](https://github.com/pukkandan)
+- [Simplify more](https://github.com/yt-dlp/yt-dlp/commit/79b7a787a01c9f808e3bfe3c8fd1ee6f451383f3) by [pukkandan](https://github.com/pukkandan)
+
+#### Extractor changes
+- **olympics**: [Fix extraction](https://github.com/yt-dlp/yt-dlp/commit/919540a9644e55deb78cdd6751757ec8fdaf76f4) ([#10625](https://github.com/yt-dlp/yt-dlp/issues/10625)) by [bashonly](https://github.com/bashonly)
+- **youku**: [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/0088c6de23d832b117061a33e984dc452d992e9c) ([#10626](https://github.com/yt-dlp/yt-dlp/issues/10626)) by [hugepower](https://github.com/hugepower)
+- **youtube**: [Add `visitor_data` and `po_token` extractor-arg](https://github.com/yt-dlp/yt-dlp/commit/f2bee4005bc001e30e2dd680b231e918548532a5) by [pukkandan](https://github.com/pukkandan)
+
 ### 2024.08.01
 
 #### Core changes
